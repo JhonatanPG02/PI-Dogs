@@ -88,11 +88,13 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.imgTotal {
+    margin: auto;
+}
 
 .img1 {
     width: 300px;
     height: 400px;
-    margin: auto;
     margin-top: 50px;
     border-radius: 10px;
 }
@@ -100,7 +102,6 @@ body{
 .img2 {
     width: 300px;
     height: 400px;
-    margin: auto;
     margin-top: 50px;
     border-radius: 10px;
 }
