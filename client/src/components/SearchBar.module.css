@@ -1,0 +1,18 @@
+
+.input {
+    padding: 9px 10px 8px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #F48039;
+    border: 2px solid white;
+    color: white;
+    padding: 2.5px 15px 4px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bolder;
+}

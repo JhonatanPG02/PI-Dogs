@@ -1,0 +1,31 @@
+
+.img {
+    width: 230px;
+    height: 190px;
+}
+
+.text {
+    margin: 5px;
+    color: #1C517A;
+}
+
+.paf {
+    margin: 5px;
+    color: #1C517A
+}
+
+.paf2 {
+    position: absolute;
+    bottom: 5px;
+    margin-left: 30%;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #1C517A;
+    border: 1px solid white;
+    color:white;
+    padding: 2px 15px 2px 15px;
+    border-radius: 70px;
+    font-size: 12px;
+}

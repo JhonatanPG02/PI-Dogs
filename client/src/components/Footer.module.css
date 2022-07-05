@@ -1,0 +1,11 @@
+.copy {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(68, 67, 67);
+    color: white;
+    text-align: center;
+    bottom: 0;
+    padding: 5px 5px;
+    margin-top: 30px;
+    font-size: 14px;
+}
