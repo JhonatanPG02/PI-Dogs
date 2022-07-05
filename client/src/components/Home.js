@@ -112,7 +112,7 @@ export default function Home() {
                     <div className={styles.create}>
                         <Link to='/create'><button className={styles.button}>CREATE BREED</button></Link><br/>
                     </div>
-                    <img src={imgdog2} alt='imagen dog' className={styles.imglogo2}/>
+                        <img src={imgdog2} alt='imagen dog' className={styles.imglogo2}/>
                 </div>
                 <div className={styles.bar2}>
                     <h2 className={styles.title}>Dog Breed App</h2>
