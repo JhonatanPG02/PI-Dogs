@@ -83,7 +83,7 @@ body{
     justify-content: center;
     align-items: center;
     row-gap: 20px;
-    column-gap: 40px;
+    column-gap: 30px;
     margin-bottom: 40px;
 }
 
@@ -139,5 +139,13 @@ body{
     }
     .button {
         padding: 5px 5px 5px 5px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .bar1 {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
     }
 }
