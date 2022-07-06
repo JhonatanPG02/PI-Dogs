@@ -36,7 +36,7 @@ router.get('/:id', async (req, res, next) => {
     }
 })
 
-router.post('/', async (req, res) => {
+router.post('/', async (req, res, next) => {
     try{
     const {name,
            image, 
@@ -65,5 +65,6 @@ router.post('/', async (req, res) => {
         next(error)
     }
 })
+
 
 module.exports = router
