@@ -108,3 +108,13 @@ content: '';
   }
 
  }
+
+ @media screen and (max-width: 600px){
+  .h1 {
+    font-size: 4rem;
+    margin-left: 40px; 
+   }
+   .button {
+     margin-left: 100px;
+   }
+ }

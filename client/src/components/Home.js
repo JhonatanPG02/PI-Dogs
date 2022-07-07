@@ -6,7 +6,7 @@ import { getAllDogs,
          orderByName,
          orderByWeight,
          filterTemperaments,
-         filterBreeds 
+         filterBreeds,
         } from '../action'
 import SearchBar from './SearchBar'
 import CardDogs from './CardDogs'
@@ -22,7 +22,7 @@ export default function Home() {
     const dispatch = useDispatch()
     const allDogs = useSelector( (state) => state.dogs)
     const allTemperaments = useSelector( (state) => state.temperaments)
-    const [order, setOrder] = useState('') 
+    const [/*order*/, setOrder] = useState('') 
     //Aplicando paginado
     const [currentPage, setCurrentPage] = useState(1)       //inicia pagina 1
     const [dogsPerPage, /*setDogsPerPage*/] = useState(8)       //8 x pagina
