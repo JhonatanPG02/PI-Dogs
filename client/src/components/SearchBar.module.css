@@ -21,4 +21,7 @@
     .input {
         padding: 9px 2px 8px 2px
     }
+    .button {
+        padding: 5px 15px 5px 15px;
+    }
 }

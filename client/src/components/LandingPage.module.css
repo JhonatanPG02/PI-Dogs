@@ -10,6 +10,7 @@
     left: 0;
 }
 
+
 .h1 {
   color: white;
   font-size: 8rem;
@@ -112,13 +113,11 @@ content: '';
  @media screen and (max-width: 600px){
   .h1 {
     font-size: 4rem;
-    margin-left: 40px; 
+    margin-left: 60px; 
    }
    .button {
-     margin-left: 100px;
+     margin-left: 120px;
    }
  }
 
- @media screen and (max-width: 400px){
-
- }
+ 
