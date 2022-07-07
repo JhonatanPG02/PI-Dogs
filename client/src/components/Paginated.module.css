@@ -76,15 +76,19 @@
 }
 
 
-@media(max-width:550px){
-    .next{
-        position:static;
+@media screen and (max-width: 600px){
+    .all {
+        font-size: 8px;
+        font-weight: lighter;
     }
-
     .previous{
-        position:static;
+        padding: 8px 2px 8px 2px
+    }
+    .next{
+        padding: 8px 2px 8px 2px
     }
 }
+
 
 @media screen and (max-width: 400px){
     .all {

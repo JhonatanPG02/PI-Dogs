@@ -113,10 +113,10 @@ content: '';
  @media screen and (max-width: 600px){
   .h1 {
     font-size: 4rem;
-    margin-left: 60px; 
+    margin-left: 70px; 
    }
    .button {
-     margin-left: 120px;
+     margin-left: 130px;
    }
  }
 
