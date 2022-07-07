@@ -82,10 +82,25 @@
     .containerTotal{
         grid-template-columns: auto;
     }
+    .img {
+        width: 250px;
+        height: 250px;
+    }
     .imgTotal {
         display: none;
     }
     .container {
         margin-bottom: 40px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .img {
+        width: 220px;
+        height: 220px;
+    }
+    .container {
+        width: 350px;
     }
 }
