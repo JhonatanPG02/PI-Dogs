@@ -13,7 +13,7 @@ export default function SearchBar({setCurrentPage}) {
     }
 
     function hundleSubmit(e){
-        if(!name) {
+        if(name.length < 3) {
             alert('incomplete data')
         } else {
         e.preventDefault()
