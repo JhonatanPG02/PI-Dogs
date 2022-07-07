@@ -163,3 +163,13 @@ body{
     height: 320px;
  }
 }
+
+@media screen and (max-width: 400px){
+    .card {
+        width: 160px;
+        height: 320px;
+     }
+ .titlelogo {
+     display: none;
+ }
+}

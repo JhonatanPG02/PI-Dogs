@@ -118,3 +118,7 @@ content: '';
      margin-left: 100px;
    }
  }
+
+ @media screen and (max-width: 400px){
+
+ }

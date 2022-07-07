@@ -16,3 +16,9 @@
     border-bottom-right-radius: 5px;
     font-weight: bolder;
 }
+
+@media screen and (max-width: 400px){
+    .input {
+        padding: 9px 2px 8px 2px
+    }
+}

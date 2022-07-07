@@ -76,7 +76,7 @@ export default function Home() {
             <nav className={styles.nav}>
                 <div className={styles.logo}>
                     <img src={imgdog} alt='imagen dog' className={styles.imglogo}/>
-                    <p>PI DOGS</p> 
+                    <p className={styles.titlelogo}>PI DOGS</p> 
                 </div>
                 <SearchBar setCurrentPage ={setCurrentPage}/>
             </nav>

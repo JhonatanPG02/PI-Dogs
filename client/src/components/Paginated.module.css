@@ -1,50 +1,3 @@
-/*
-.paginated{
-    margin: auto;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0px;
-    justify-content: center; 
-    position: relative;
-}
-
-.numbers{
-    text-decoration: none;
-    list-style: none;
-    background-color: #D6ECF6;
-    border-radius: 50px;
-    justify-content: center;
-    display: inline-block;
-    margin-right: 10px;
-    cursor: pointer;
-} 
-
-.number{
-    color: white;
-    display:inline-block;
-    width: 30px;
-    height: 30px;
-    align-content: center;
-    text-align: center;
-    font-weight: bolder;
-    justify-content: center;
-    gap:10px;
-    background-color: #1C517A;
-    border-radius: 5px;
-    border: 1px solid #1C517A;
-}
-
-.number:hover{
-    cursor: pointer;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    transform: scale(1.40);
-    background-color: #6CBFE8;
-    color: white;
-    border: 1px solid white;
-}
-
-*/
 
 .all{
     display: flex;
@@ -130,5 +83,18 @@
 
     .previous{
         position:static;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .all {
+        font-size: 8px;
+        font-weight: lighter;
+    }
+    .previous{
+        padding: 8px 2px 8px 2px
+    }
+    .next{
+        padding: 8px 2px 8px 2px
     }
 }

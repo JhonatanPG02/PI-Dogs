@@ -35,4 +35,17 @@
         width: 190px;
         height: 160px;
     }
+    .paf2 {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .img {
+        width: 160px;
+        height: 140px;
+    }
+    .paf2 {
+        margin-left: 20%;
+    }
 }
