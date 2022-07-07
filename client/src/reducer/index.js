@@ -43,8 +43,8 @@ export default function rootReducer (state=initialState, action) {
                 return a.weight_min - b.weight_min
                 }) 
             : allDogsW.sort((a,b) =>{
-                return a.weight_max - b.weight_max
-                }).reverse() 
+                return b.weight_max - a.weight_max
+                })
             return{
                 ...state,
                 dogs: orderWeight
