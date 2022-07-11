@@ -1,4 +1,5 @@
 import axios from 'axios'
+import Swal from 'sweetalert2'
 
 export function getAllDogs(){
     return async function(dispatch) {
@@ -51,7 +52,7 @@ export function getByName(name) {
             payload: res.data
         })
         }catch(error) {
-            alert('Breed name not found')
+            Swal.fire('Breed name not found')
             console.log(error)
         }
     }

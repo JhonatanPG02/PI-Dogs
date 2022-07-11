@@ -6,6 +6,7 @@ import Footer from './Footer'
 import styles from './CreateBreed.module.css'
 import img1 from '../images/perro1.jpeg'
 import img2 from '../images/perro2.jpeg'
+import Swal from 'sweetalert2'
 
 export default function CreateBreed() {
     const dispatch = useDispatch()
@@ -83,12 +84,12 @@ function validate(input) {
     function handleSumbit(e){
         e.preventDefault()
         if(!input.name || !input.height_min || !input.height_max || !input.weight_max || !input.weight_min  || !input.life_spanmin || !input.life_spanmax || input.temperaments.length === 0) {
-            alert('Complete all options')
+            Swal.fire('Complete all options')
         } else if (errors.name || errors.height_min || errors.height_max || errors.weight_max || errors.weight_min || errors.life_span || errors.temperaments) {
-            alert('incorrect data')
+            Swal.fire('incorrect data')
         } else {setErrors(validate(input))
         dispatch(postDogs(input))
-        alert('Breed created succesfully!')
+        Swal.fire('Breed created succesfully!')
         setInput({
         name: '',
         image: '',

@@ -118,9 +118,7 @@ export default function Home() {
                     <h2 className={styles.title}>Dog Breed App</h2>
                     <div className={styles.paginated}>
                         <Paginated
-                            //dogsPerPage ={dogsPerPage}
-                            //allDogs = {allDogs.length}
-                            //paginated = {paginated}
+                     
                             pageFunction={paginar} 
                             data={dogsPerPage} 
                             current={currentPage}

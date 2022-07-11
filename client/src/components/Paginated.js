@@ -2,24 +2,6 @@ import {React, useState} from 'react'
 import style from './Paginated.module.css'
 import {useSelector} from 'react-redux'
 
-// export default function Paginated({dogsPerPage, allDogs, pageFunction }) {
-//     const pageNumbers= []
-
-//     for(let i=1; i<= Math.ceil(allDogs/dogsPerPage); i++)
-//         pageNumbers.push(i)
-
-//         return (
-//             <nav>
-//                 <ul className={styles.paginated}>
-//                     {pageNumbers && pageNumbers.map(e => (
-//                         <li className={styles.numbers} key={e}>
-//                         <button onClick={()=> paginated(e)} className={styles.number}>{e}</button>
-//                         </li>
-//                     ))}
-//                 </ul>
-//             </nav>
-//         )
-// }
 
 export default function Paginated({pageFunction, data, current}) {
 

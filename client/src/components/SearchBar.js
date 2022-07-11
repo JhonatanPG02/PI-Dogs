@@ -2,6 +2,7 @@ import {React, useState} from 'react'
 import {useDispatch} from 'react-redux'
 import { getByName } from '../action'
 import styles from './SearchBar.module.css'
+import Swal from 'sweetalert2'
 
 
 export default function SearchBar({setCurrentPage}) {
@@ -14,7 +15,7 @@ export default function SearchBar({setCurrentPage}) {
 
     function hundleSubmit(e){
         if(name.length < 3) {
-            alert('incomplete data')
+            Swal.fire('Incomplete Data')
         } else {
         e.preventDefault()
         dispatch(getByName(name))
